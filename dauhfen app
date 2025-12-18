@@ -1,0 +1,183 @@
+<!DOCTYPE html><html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>稻禾風｜台東溫馨民宿</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", Arial, sans-serif;
+      background-color: #fdfbf7;
+      color: #4a4a4a;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('hero.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 4px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #6b8e6e;
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 70px 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #6b8e6e;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+    .about {
+      text-align: center;
+      font-size: 1.05rem;
+    }
+    .rooms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .room {
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .room img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .room-content {
+      padding: 22px;
+    }
+    .room-content h3 {
+      margin-top: 0;
+      color: #4f6f52;
+    }
+    .contact {
+      background-color: #f3f6f1;
+    }
+    .contact p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 35px;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #6b8e6e;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #5a7c5d;
+    }
+    footer {
+      background-color: #3f3f3f;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>稻禾風</h1>
+  <p>在台東，住進一段溫柔的慢時光</p>
+</header><nav>
+  <a href="#about">關於我們</a>
+  <a href="#rooms">房型介紹</a>
+  <a href="#contact">訂房聯絡</a>
+</nav><section id="about">
+  <div class="container about">
+    <h2>關於稻禾風</h2>
+    <p>
+      稻禾風靜靜座落於台東市的一隅，
+      在稻田、微風與陽光之間，
+      為旅人保留一個慢下來的空間。
+      早晨聽見自然的聲音，
+      夜晚在寧靜中入眠，
+      讓旅程回歸最單純、溫暖的樣子。
+    </p>
+  </div>
+</section><section id="rooms">
+  <div class="container">
+    <h2>房型介紹</h2>
+    <div class="rooms">
+      <div class="room">
+        <img src="room1.jpg" alt="雙人房" />
+        <div class="room-content">
+          <h3>溫馨雙人房</h3>
+          <p>適合情侶或好友入住，柔和色調與自然採光，享受台東的慢活時光。</p>
+        </div>
+      </div>
+      <div class="room">
+        <img src="room2.jpg" alt="四人房" />
+        <div class="room-content">
+          <h3>家庭四人房</h3>
+          <p>寬敞舒適的空間，適合親子與家人同行，留下溫暖的旅行回憶。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><section id="contact" class="contact">
+  <div class="container">
+    <h2>訂房與聯絡</h2>
+    <p>📍 台東市（詳細位置將於訂房後提供）｜TEL：0924-352-651｜Email：dauhfen@gmail.com</p>
+    <form action="https://docs.google.com/forms/d/e/FORM_ID/formResponse" method="POST" target="_blank">
+      <input type="text" name="entry.111111" placeholder="姓名" required />
+      <input type="tel" name="entry.222222" placeholder="聯絡電話" required />
+      <input type="date" name="entry.333333" required />
+      <select name="entry.444444">
+        <option>溫馨雙人房</option>
+        <option>家庭四人房</option>
+      </select>
+      <button type="submit">前往填寫訂房表單</button>
+    </form>
+  </div>
+</section><footer>
+  <p>稻禾風民宿 © 2025｜台東溫馨民宿</p>
+</footer></body>
+</html>
