@@ -147,14 +147,14 @@
     <h2>房型介紹</h2>
     <div class="rooms">
       <div class="room">
-        <img src="room1.jpg" alt="雙人房" />
+        <img src="https://picsum.photos/400/300?random=2" alt="雙人房">
         <div class="room-content">
           <h3>溫馨雙人房</h3>
           <p>適合情侶或好友入住，柔和色調與自然採光，享受台東的慢活時光。</p>
         </div>
       </div>
       <div class="room">
-        <img src="room2.jpg" alt="四人房" />
+        <img src="https://picsum.photos/400/300?random=3" alt="家庭房">
         <div class="room-content">
           <h3>家庭四人房</h3>
           <p>寬敞舒適的空間，適合親子與家人同行，留下溫暖的旅行回憶。</p>
